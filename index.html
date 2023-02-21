@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimum-scale=1">
+
+	<title>Luis Amortegui || Portafolio</title>
+
+	<link rel="stylesheet" href="css/estilos.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+	<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body>
+
+<!--=============================================
+INICIO
+=============================================-->
+
+<section id="inicio">
+
+	<div class="contenido">
+
+		<header>
+
+			<div class="contenido-header">
+
+				<h1>.*|| LA ||*.</h1>
+
+				<nav id="nav" class="">
+
+					<ul id="links">
+
+						<li>
+
+							<a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a>
+
+						</li>
+
+						<li>
+
+							<a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a>
+
+						</li>
+
+						<li>
+
+							<a href="#habilidades" onclick="seleccionar(this)">HABILIDADES</a>
+
+						</li>
+
+						<li>
+
+							<a href="#portfolio" onclick="seleccionar(this)">PROYECTOS</a>
+
+						</li>
+
+						<li>
+
+							<a href="#contacto" onclick="seleccionar(this)">CONTACTO</a>
+
+						</li>
+
+					</ul>
+
+				</nav>
+
+				<!-- Icono del menu responsivo -->
+
+				<div id="icono-nav" onclick="responsiveMenu()">
+
+					<i class="fa-solid fa-bars"></i>
+
+				</div>
+
+				<!-- ICONOS -->
+
+				<nav id="redes">
+
+					<a href="https://www.linkedin.com/in/luis-hernando-murcia-amortegui-417b521bb/" target="_blank">
+
+                		<i class="fa-brands fa-linkedin fa-2x"></i>
+
+            		</a>
+
+            		<a href="https://github.com/LuisAmortegui3691" target="_blank">
+
+            			<i class="fa-brands fa-github fa-2x"></i>
+
+            		</a>
+
+            		<a href="https://www.youtube.com/channel/UCUeZpd8OeWTCCyeelty72ig" target="_blank">
+
+            			<i class="fa-brands fa-youtube fa-2x"></i>
+
+            		</a>
+
+            		<a href="https://www.facebook.com/profile.php?id=100090663481989" target="_blank">
+
+            			<i class="fa-brands fa-facebook fa-2x"></i>
+
+            		</a>
+
+				</nav>
+
+			</div>
+
+		</header>
+
+		<div class="presentacion">
+
+			<p class="bienvenida">Bienvenidos</p>
+
+			<h2>Soy <span>Luis Amortegui</span>, Desarrollador Web</h2>
+
+			<p class="descripcion">
+            Desarrollador Java || php || CSS3 | HTML5 | JavaScript | Bootstrap 
+            Ajax | MySQL | postman | JSON 
+         	 </p>
+
+         	 <a href="#portfolio">Ir a Portafolio</a>
+
+		</div>
+
+	</div>
+
+</section>
+
+<!--=============================================
+SECCION SOBRE MI
+=============================================-->
+
+<section id="sobremi" class="sobreMi">
+
+	<div class="contenedor-foto">
+
+        <img src="img/foto.jpg" alt="">
+
+     </div>
+
+     <div class="sobremi">
+
+     	<p class="titulo-seccion">Sobre Mí</p>
+
+     	<h2>
+
+     	Mi nombre es, 
+
+     		<span>Luis Amortegui</span>
+
+     	</h2>
+
+     	<h3>Desarrollador Web</h3>
+
+     	<p>Desarrollo de aplicaciones de forma autonoma, desarrollando varios aplicativos en Java, desarrollo WEB con tecnologias PHP, ajax y JavaScript, JSON, potsman, MySQL para el back-end, para el Front-end bootstrap, css3, HTML5. Experiencia en procesos financieros por más de 5 años, manejando los diferentes ERP del mercado, SAP Bussines One, SAP R3, Netsolin, SEVEN, Helisa, World Office, App de script y google sheets. Apoyando los diferentes procesos, análisis de la información y presentación de informes.
+		Sostengo un excelente relacionamiento, planteo estrategias innovadoras que faciliten el proceso de consolidación y sistematización de actividades, parametrizando y consolidando procesos, busco eficiencia, optimizo recursos el buen desarrollo de los programas.
+		</p>
+
+		<a class="nav-link" id="div-btn1" href="https://drive.google.com/file/d/1chwt-dBwxCuh6_dzijJ1w7aYoof2VE3R/view?usp=sharing" target="_blank">Descargar CV</a>
+
+     </div>
+
+</section>
+
+<!--=============================================
+SECCION HABILIDADES
+=============================================-->
+
+<section id="habilidades" class="habilidades">
+
+	<h3 class="titulo-seccion">HABILIDADES TÉCNICAS</h3>
+
+	<div class="fila">
+
+		<div class="habilidad">
+
+			<img src="img/php.png" alt="php" width="80" height="80">
+
+			<h4>PHP</h4>
+
+			<hr>
+
+			<ul class="habilidades-tag"></ul>
+
+			<p>PHP (acrónimo recursivo de PHP: Hypertext Preprocessor ) es un lenguaje de código abierto muy popular especialmente adecuado para el desarrollo web y que puede ser incrustado en HTML.</p>
+
+		</div>
+
+		<div class="habilidad">
+
+			<img src="img/JavaScript.png" alt="php" width="80" height="80">
+
+			<h4>JavaScript</h4>
+
+			<hr>
+
+			<ul class="habilidades-tag"></ul>
+
+			<p>Lenguaje de secuencias de comandos que nos permite crear contenido de actualización dinámica, controlar multimedia, animar imágenes y prácticamente todo lo demás.</p>
+
+		</div>
+
+		<div class="habilidad">
+
+			<img src="img/html-5.png" alt="php" width="80" height="80">
+
+			<h4>HTML</h4>
+
+			<hr>
+
+			<ul class="habilidades-tag"></ul>
+
+			<p>Es el lenguaje de marcado que usamos para estructurar y dar significado a nuestro contenido web. Definiendo párrafos, encabezados y tablas de datos.</p>
+
+		</div>
+
+		<div class="habilidad">
+
+			<img src="img/css-3.png" alt="php" width="80" height="80">
+
+			<h4>CSS</h4>
+
+			<hr>
+
+			<ul class="habilidades-tag"></ul>
+
+			<p>Es un lenguaje de reglas de estilo que usamos para aplicar estilo a nuestro contenido HTML, establecer colores de fondo y tipos de letras.</p>
+
+		</div>
+
+	</div>
+
+	<div class="fila">
+
+		<div class="habilidad">
+
+			<img src="img/ajax.png" alt="php" width="80" height="80">
+
+			<h4>AJAX</h4>
+
+			<hr>
+
+			<ul class="habilidades-tag"></ul>
+
+			<p>Ajax es un lenguaje de programación que permite la actualización de secciones específicas de contenido en una página web, sin necesidad de recargar completamente la página.</p>
+
+		</div>
+
+		<div class="habilidad">
+
+			<img src="img/postman.png" alt="php" width="80" height="80">
+
+			<h4>POSTMAN</h4>
+
+			<hr>
+
+			<ul class="habilidades-tag"></ul>
+
+			<p>Postman es una plataforma gratuita si trabajas solo o de pago si quieres trabajar de manera colaborativa con tu equipo. Esta plataforma posibilita y facilita la creación y el uso de APIs.</p>
+
+		</div>
+
+		<div class="habilidad">
+
+			<img src="img/java.png" alt="php" width="80" height="80">
+
+			<h4>JAVA</h4>
+
+			<hr>
+
+			<ul class="habilidades-tag"></ul>
+
+			<p>Java es un lenguaje multiplataforma, orientado a objetos y centrado en la red que se puede utilizar como una plataforma en sí mismo.</p>
+
+		</div>
+
+		<div class="habilidad">
+
+			<img src="img/git.png" alt="php" width="80" height="80">
+
+			<h4>GitHub</h4>
+
+			<hr>
+
+			<ul class="habilidades-tag"></ul>
+
+			<p>Facilita la organización de proyectos y permite la colaboración de varios desarrolladores en tiempo real. Es decir, nos permite centralizar el contenido del repositorio.</p>
+
+		</div>
+
+	</div>
+
+</section>
+
+<!--=============================================
+SECCION PORTAFOLIO
+=============================================-->
+
+<section id="portfolio" class="portafolio">
+
+	<h3 class="titulo-seccion">Mis Proyectos</h3>
+
+	<div class="fila">
+
+		<div class="proyecto">
+
+			<div class="overlay"></div>
+
+			<img src="img/pagina.JPG" alt="">
+
+			<div class="info">
+
+            	<h4>Mi Portafolio</h4>
+
+            	<p>
+             	 Repositorio:
+
+              	<a href="#" target="_blank"></a>
+
+           		 </p>
+
+           		 <h4>Pagina WEB portafolios</h4>
+
+         	 </div>
+
+		</div>
+
+
+		<div class="proyecto">
+
+			<div class="overlay"></div>
+
+			<img src="img/sistemainventory.JPG" alt="">
+
+			<div class="info">
+
+            	<h4>Mi Portafolio</h4>
+
+            	<p>
+             	 Repositorio:
+
+              	<a href="#" target="_blank"></a>
+
+           		 </p>
+
+         	 </div>
+
+		</div>
+
+
+		<div class="proyecto">
+
+			<img src="img/admin.JPG" alt="">
+
+			<div class="info">
+
+            	<h4>Mi Portafolio</h4>
+
+            	<p>
+             	 Repositorio:
+
+              	<a href="#" target="_blank"></a>
+
+           		 </p>
+
+         	 </div>
+
+		</div>
+
+	</div>
+
+</section>
+
+<!--=============================================
+SECCION FOOTER
+=============================================-->
+
+<footer class="footer">
+
+	<p>Luis Hernando Murcia Amortegui 2023 © Copyright</p>
+
+	<div id="redes" style="margin-top: 10px;">
+
+		<a href="https://www.linkedin.com/in/luis-hernando-murcia-amortegui-417b521bb/" target="_blank">
+
+			<i class="fa-brands fa-linkedin fa-2x"></i>
+
+		</a>
+
+		<a href="https://github.com/LuisAmortegui3691" target="_blank">
+
+			<i class="fa-brands fa-github fa-2x"></i>
+
+		</a>
+
+		<a href="https://www.youtube.com/channel/UCUeZpd8OeWTCCyeelty72ig" target="_blank">
+
+			<i class="fa-brands fa-youtube fa-2x"></i>
+
+		</a>
+
+		<a href="https://www.facebook.com/profile.php?id=100090663481989" target="_blank">
+
+			<i class="fa-brands fa-facebook fa-2x"></i>
+
+		</a>
+
+	</div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
